@@ -1,5 +1,5 @@
 @prefix ex: <https://example.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:jana-verlinde 
+<https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl>
     ex:name         "Jana Verlinde"^^xsd:string .
