@@ -13,3 +13,35 @@
 <#micro-credential-student>
     rdfs:label "micro-credential student"@en ;
     rdfs:comment "a student who enrolls in a short, focused educational program designed to build a specific skill or competency."@en .
+
+<#e-mail>
+    rdfs:label "e-mail"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#favorite-drink>
+    rdfs:label "favorite drink"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#coffee>
+    rdfs:label "coffee"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#hobby>
+    rdfs:label "hobby"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#running>
+    rdfs:label "running"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#location>
+    rdfs:label "location"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#Ghent>
+    rdfs:label "Ghent"@en ;
+    rdfs:comment "pro memory"@en .
+
+<#knows>
+    rdfs:label "knows"@en ;
+    rdfs:comment "pro memory"@en .
