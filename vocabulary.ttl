@@ -1,0 +1,7 @@
+# Use RDF and RDFS to indicate whether something is a class, property, ...
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<#name>
+    rdfs:label "name"@en ;
+    rdfs:comment "a word or set of words by which a person, a thing or a place is known or addressed"@en .

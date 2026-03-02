@@ -1,5 +1,6 @@
 @prefix ex: <https://example.org/> .
+@prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl>
-    ex:name         "Jana Verlinde"^^xsd:string .
+    voc:name         "Jana Verlinde"^^xsd:string .
