@@ -5,3 +5,11 @@
 <#name>
     rdfs:label "name"@en ;
     rdfs:comment "a word or set of words by which a person, a thing or a place is known or addressed"@en .
+
+<#student-enrolment-type>
+    rdfs:label "student enrolment type"@en ;
+    rdfs:comment "the category under which a student is officially registered at an educational institution"@en .
+
+<#micro-credential-student>
+    rdfs:label "micro-credential student"@en ;
+    rdfs:comment "a student who enrolls in a short, focused educational program designed to build a specific skill or competency."@en .
