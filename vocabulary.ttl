@@ -42,32 +42,32 @@
 <#favorite-drink> 
     a               rdf:Property ;
     rdfs:label      "favorite drink"@en ;
-    rdfs:comment    "the beverage a person or an animal most enjoys choosing and consuming above all others"@en ;
-    rdfs:domain     rdfs:Resource ;
+    rdfs:comment    "the beverage a person most enjoys choosing and consuming above all others"@en ;
+    rdfs:domain     rdfs:Person ;
     rdfs:range      rdfs:Drink .
 
 <#Drink> 
     a               rdfs:Class ;
     rdfs:label      "drink"@en ;
-    rdfs:comment    "liquid consumed by a person or an animal to hydrate, provide nourishment, or offer sensory enjoyment"@en .
+    rdfs:comment    "liquid consumed by a person to hydrate, provide nourishment, or offer sensory enjoyment"@en .
 
 <#Coffee> 
     a               rdfs:Class ;
     rdfs:subClassOf this:Drink ;
     rdfs:label      "coffee"@en ;
-    rdfs:comment    "a beverage brewed from roasted seeds of the coffee plant, known for its dark color, bitter taste, and stimulating caffeine content"@en .
+    rdfs:comment    "a hot beverage brewed from roasted seeds of the coffee plant, known for its dark color, bitter taste, and stimulating caffeine content"@en .
 
 <#hobby> 
     a               rdf:Property ;
     rdfs:label      "hobby"@en ;
-    rdfs:comment    "an activity someone chooses to do regularly for enjoyment, interest, or personal satisfaction"@en ;
+    rdfs:comment    "an activity someone chooses to do regularly for enjoyment, interest or personal satisfaction"@en ;
     rdfs:domain     rdfs:Person ;
     rdfs:range      this:Activity .
 
 <#Activity> 
     a               rdfs:Class ;
     rdfs:label      "activity"@en ;
-    rdfs:comment    "a thing that somebody does and spends time doing"@en .
+    rdfs:comment    "a thing that somebody spends time doing"@en .
 
 <#Running> 
     a               rdfs:Class ;
@@ -78,6 +78,6 @@
 <#knows> 
     a               rdf:Property ;
     rdfs:label      "knows"@en ;
-    rdfs:comment    "pro memory"@en ;
-    rdfs:domain     rdfs:Resource ;
-    rdfs:range      rdfs:Resource .
+    rdfs:comment    "have some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
+    rdfs:domain     rdfs:Person ;
+    rdfs:range      rdfs:Person .
