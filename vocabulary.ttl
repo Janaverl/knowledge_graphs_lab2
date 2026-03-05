@@ -1,4 +1,4 @@
-@prefix this: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
+@base <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -16,7 +16,7 @@
 
 <#Student> 
     a               rdf:Class ;
-    rdfs:subClassOf this:Person ;
+    rdfs:subClassOf <#Person> ;
     rdfs:label      "student"@en ;
     rdfs:comment    "a person who enrolls in an educational program or course"@en .
 
@@ -24,7 +24,7 @@
     a               rdf:Property ;
     rdfs:label      "student enrolment type"@en ;
     rdfs:comment    "the category under which a student is officially registered at an educational institution"@en ;
-    rdfs:domain     this:Student ;
+    rdfs:domain     <#Student> ;
     rdfs:range      rdfs:Resource .
 
 <#Micro-credential-student> 
@@ -43,8 +43,8 @@
     a               rdf:Property ;
     rdfs:label      "favorite drink"@en ;
     rdfs:comment    "the beverage a person most enjoys choosing and consuming above all others"@en ;
-    rdfs:domain     this:Person ;
-    rdfs:range      this:Drink .
+    rdfs:domain     <#Person> ;
+    rdfs:range      <#Drink> .
 
 <#Drink> 
     a               rdfs:Class ;
@@ -53,7 +53,7 @@
 
 <#Coffee> 
     a               rdfs:Class ;
-    rdfs:subClassOf this:Drink ;
+    rdfs:subClassOf <#Drink> ;
     rdfs:label      "coffee"@en ;
     rdfs:comment    "a hot beverage brewed from roasted seeds of the coffee plant, known for its dark color, bitter taste, and stimulating caffeine content"@en .
 
@@ -61,8 +61,8 @@
     a               rdf:Property ;
     rdfs:label      "hobby"@en ;
     rdfs:comment    "an activity someone chooses to do regularly for enjoyment, interest or personal satisfaction"@en ;
-    rdfs:domain     this:Person ;
-    rdfs:range      this:Activity .
+    rdfs:domain     <#Person> ;
+    rdfs:range      <#Activity> .
 
 <#Activity> 
     a               rdfs:Class ;
@@ -71,13 +71,13 @@
 
 <#Running> 
     a               rdfs:Class ;
-    rdfs:subClassOf this:Activity ;
+    rdfs:subClassOf <#Activity> ;
     rdfs:label      "running"@en ;
     rdfs:comment    "a physical activity in which a person moves forward on foot at a speed faster than walking, with moments when both feet are off the ground"@en .
 
 <#knows> 
     a               rdf:Property ;
     rdfs:label      "knows"@en ;
-    rdfs:comment    "have some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
-    rdfs:domain     this:Person ;
-    rdfs:range      this:Person .
+    rdfs:comment    "having some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
+    rdfs:domain     <#Person> ;
+    rdfs:range      <#Person> .
