@@ -5,8 +5,7 @@
 
 <#me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
-    a                               voc:Person ;
-    a                               voc:Student ;
+    a                               voc:Person , voc:Student ;
     voc:student-enrolment-type      voc:Micro-credential-student ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
     voc:favorite-drink              voc:Coffee ;
