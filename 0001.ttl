@@ -9,8 +9,8 @@ this:me
     a                               voc:Student ;
     voc:student-enrolment-type      voc:micro-credential-student ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
-    voc:favorite-drink              voc:coffee ;
-    voc:hobby                       voc:running ;
+    voc:favorite-drink              voc:Coffee ;
+    voc:hobby                       voc:Running ;
     voc:location                    voc:Ghent ;
     voc:knows                       <https://vucis.github.io/data.ttl#me>  ,
                                     <https://lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
