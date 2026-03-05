@@ -9,17 +9,28 @@
     rdfs:domain     rdfs:Resource ;
     rdfs:range      rdfs:Literal .
 
+<#Person> 
+    a               rdf:Class ;
+    rdfs:label      "person"@en ;
+    rdfs:comment    "a human being"@en .
+
+<#Student> 
+    a               rdf:Class ;
+    rdfs:subClassOf this:Person ;
+    rdfs:label      "student"@en ;
+    rdfs:comment    "a person who enrolls in an educational program or course"@en .
+
 <#student-enrolment-type> 
     a               rdf:Property ;
     rdfs:label      "student enrolment type"@en ;
     rdfs:comment    "the category under which a student is officially registered at an educational institution"@en ;
-    rdfs:domain     rdfs:Resource ;
+    rdfs:domain     this:Student ;
     rdfs:range      rdfs:Resource .
 
 <#micro-credential-student> 
     a               rdfs:Class ;
     rdfs:label      "micro-credential student"@en ;
-    rdfs:comment    "a student who enrolls in a short, focused educational program designed to build a specific skill or competency."@en .
+    rdfs:comment    "a student who enrolls in a short, focused educational program designed to build a specific skill or competency"@en .
 
 <#e-mail> 
     a               rdf:Property ;
