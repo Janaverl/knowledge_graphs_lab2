@@ -43,8 +43,8 @@
     a               rdf:Property ;
     rdfs:label      "favorite drink"@en ;
     rdfs:comment    "the beverage a person most enjoys choosing and consuming above all others"@en ;
-    rdfs:domain     rdfs:Person ;
-    rdfs:range      rdfs:Drink .
+    rdfs:domain     this:Person ;
+    rdfs:range      this:Drink .
 
 <#Drink> 
     a               rdfs:Class ;
@@ -61,7 +61,7 @@
     a               rdf:Property ;
     rdfs:label      "hobby"@en ;
     rdfs:comment    "an activity someone chooses to do regularly for enjoyment, interest or personal satisfaction"@en ;
-    rdfs:domain     rdfs:Person ;
+    rdfs:domain     this:Person ;
     rdfs:range      this:Activity .
 
 <#Activity> 
@@ -79,5 +79,5 @@
     a               rdf:Property ;
     rdfs:label      "knows"@en ;
     rdfs:comment    "have some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
-    rdfs:domain     rdfs:Person ;
-    rdfs:range      rdfs:Person .
+    rdfs:domain     this:Person ;
+    rdfs:range      this:Person .
