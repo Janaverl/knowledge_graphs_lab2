@@ -27,7 +27,7 @@
     rdfs:domain     this:Student ;
     rdfs:range      rdfs:Resource .
 
-<#micro-credential-student> 
+<#Micro-credential-student> 
     a               rdfs:Class ;
     rdfs:label      "micro-credential student"@en ;
     rdfs:comment    "a student who enrolls in a short, focused educational program designed to build a specific skill or competency"@en .
