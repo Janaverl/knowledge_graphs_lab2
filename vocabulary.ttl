@@ -35,7 +35,7 @@
 <#e-mail> 
     a               rdf:Property ;
     rdfs:label      "e-mail"@en ;
-    rdfs:comment    "the unique identifier that specifies the digital mailbox-address where electronic messages can be sent and received"@en ;
+    rdfs:comment    "a unique identifier that specifies the address of a digital mailbox where electronic messages can be sent and received"@en ;
     rdfs:domain     rdfs:Resource ;
     rdfs:range      rdfs:Literal .
 
