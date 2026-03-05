@@ -1,12 +1,13 @@
+@prefix this: <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl#> .
 @prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl>
+<this:me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
     voc:student-enrolment-type      voc:micro-credential-student ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
     voc:favorite-drink              voc:coffee ;
     voc:hobby                       voc:running ;
     voc:location                    voc:Ghent ;
-    voc:knows                       <http://someone2.be>  ,
-                                    <http://someone1.be> .
+    voc:knows                       <http://hannevanoutrive.github.io/knowledge_graphs/data.ttl>  ,
+                                    <https://lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
