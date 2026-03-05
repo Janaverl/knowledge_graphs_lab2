@@ -1,6 +1,7 @@
 @prefix this: <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl#> .
 @prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 this:me
     voc:name                        "Jana Verlinde"^^xsd:string ;
@@ -11,3 +12,6 @@ this:me
     voc:location                    voc:Ghent ;
     voc:knows                       <https://hannevanoutrive.github.io/knowledge_graphs/data.ttl>  ,
                                     <https://lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
+
+this:jana 
+    owl:sameAs                      this:me .
