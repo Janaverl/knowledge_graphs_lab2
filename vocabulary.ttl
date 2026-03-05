@@ -75,18 +75,6 @@
     rdfs:label      "running"@en ;
     rdfs:comment    "a physical activity in which a person moves forward on foot at a speed faster than walking, with moments when both feet are off the ground"@en .
 
-<#location> 
-    a               rdf:Property ;
-    rdfs:label      "location"@en ;
-    rdfs:comment    "pro memory"@en ;
-    rdfs:domain     rdfs:Resource ;
-    rdfs:range      rdfs:Resource .
-
-<#Ghent> 
-    a               rdfs:Class ;
-    rdfs:label      "Ghent"@en ;
-    rdfs:comment    "pro memory"@en .
-
 <#knows> 
     a               rdf:Property ;
     rdfs:label      "knows"@en ;
