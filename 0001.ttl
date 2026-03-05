@@ -11,7 +11,8 @@
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
     voc:favorite-drink              voc:Coffee ;
     voc:hobby                       voc:Running ;
-    voc:knows                       <https://federickds.github.io/knowledge_graphs/data.ttl#me>  ,
+    voc:knows                       <https://hannevanoutrive.github.io/knowledge_graphs/data.ttl#vanoutrive_hanne> ,
+                                    <https://federickds.github.io/knowledge_graphs/data.ttl#me> ,
                                     <https://lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
 
 <#jana>
