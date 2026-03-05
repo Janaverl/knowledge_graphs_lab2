@@ -1,16 +1,20 @@
-# Use RDF and RDFS to indicate whether something is a class, property, ...
+@prefix this: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <#name> 
     a               rdf:Property ;
     rdfs:label      "name"@en ;
-    rdfs:comment    "a word or set of words by which a person, a thing or a place is known or addressed"@en .
+    rdfs:comment    "a word or set of words by which a person, a thing or a place is known or addressed"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Literal .
 
 <#student-enrolment-type> 
     a               rdf:Property ;
     rdfs:label      "student enrolment type"@en ;
-    rdfs:comment    "the category under which a student is officially registered at an educational institution"@en .
+    rdfs:comment    "the category under which a student is officially registered at an educational institution"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Resource .
 
 <#micro-credential-student> 
     a               rdfs:Class ;
@@ -20,12 +24,16 @@
 <#e-mail> 
     a               rdf:Property ;
     rdfs:label      "e-mail"@en ;
-    rdfs:comment    "pro memory"@en .
+    rdfs:comment    "pro memory"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Literal .
 
 <#favorite-drink> 
     a               rdf:Property ;
     rdfs:label      "favorite drink"@en ;
-    rdfs:comment    "pro memory"@en .
+    rdfs:comment    "pro memory"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Resource .
 
 <#coffee> 
     a               rdfs:Class;
@@ -35,7 +43,9 @@
 <#hobby> 
     a               rdf:Property ;
     rdfs:label      "hobby"@en ;
-    rdfs:comment    "pro memory"@en .
+    rdfs:comment    "pro memory"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Resource .
 
 <#running> 
     a               rdfs:Class;
@@ -45,7 +55,9 @@
 <#location> 
     a               rdf:Property ;
     rdfs:label      "location"@en ;
-    rdfs:comment    "pro memory"@en .
+    rdfs:comment    "pro memory"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Resource .
 
 <#Ghent> 
     a               rdfs:Class;
@@ -55,4 +67,6 @@
 <#knows> 
     a               rdf:Property ;
     rdfs:label      "knows"@en ;
-    rdfs:comment    "pro memory"@en .
+    rdfs:comment    "pro memory"@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Resource .
