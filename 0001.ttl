@@ -2,7 +2,7 @@
 @prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<this:me>
+this:me
     voc:name                        "Jana Verlinde"^^xsd:string ;
     voc:student-enrolment-type      voc:micro-credential-student ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
