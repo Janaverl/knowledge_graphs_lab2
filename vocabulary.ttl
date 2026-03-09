@@ -32,6 +32,18 @@
     rdfs:label      "micro-credential student"@en ;
     rdfs:comment    "a student who enrolls in a short, focused educational program designed to build a specific skill or competency"@en .
 
+<#enrolledIn>
+    a               rdf:Property ;
+    rdfs:label      "enrolled in" ;
+    rdfs:comment    "Formally registered as a participant in a course." ;
+    rdfs:domain     <#Student> ;
+    rdfs:range      <#Course> .
+
+<#Course> 
+    a               rdfs:Class ;
+    rdfs:label      "course" ;
+    rdfs:comment    "A structured series of lessons or classes on a particular subject, usually designed to teach specific knowledge or skills at an educational institution." .
+
 <#e-mail> 
     a               rdf:Property ;
     rdfs:label      "e-mail"@en ;

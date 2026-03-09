@@ -1,12 +1,14 @@
 @base <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl> .
 @prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <#me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
     a                               voc:Person , voc:Student ;
     voc:student-enrolment-type      voc:Micro-credential-student ;
+    voc:enrolledIn                  <#knowledge-graphs-2025> ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
     voc:favorite-drink              voc:Coffee ;
     voc:hobby                       voc:Running ;
@@ -16,3 +18,8 @@
 
 <#jana>
     owl:sameAs                     <#me> .
+
+<#knowledge-graphs-2025> 
+    a                               voc:Course ;
+    voc:name                        "Knowledge Graphs 2025" ;
+    rdfs:seeAlso                    <https://studiekiezer.ugent.be/studiefiche/nl/E018160/2025> .
