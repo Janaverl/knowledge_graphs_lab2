@@ -16,7 +16,8 @@
                                     <https://federickds.github.io/knowledge_graphs/data.ttl#me> ,
                                     <https://lander6.github.io/knowledge-graph-assignment/data.ttl#Lander> ,
                                     <https://seppesantens.github.io/rdf-lab2/data.ttl#me> ,
-                                    <https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me>
+                                    <https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me> ,
+                                    <https://daniel1402.github.io/knowledge-graphs-labs/data.ttl#me>
                                     .
 
 <#jana>

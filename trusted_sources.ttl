@@ -21,3 +21,6 @@
 
 <https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me> 
         purl:creator <https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl>.
+
+<https://daniel1402.github.io/knowledge-graphs-labs/data.ttl#me>
+        purl:creator <https://daniel1402.github.io/knowledge-graphs-labs/vocab.ttl> .
