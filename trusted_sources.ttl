@@ -1,4 +1,4 @@
-@base <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl> .
+@base <https://janaverl.github.io/knowledge_graphs_lab2/trusted_sources.ttl> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 </data-001> owl:sameAs <https://hannevanoutrive.github.io/knowledge_graphs/data.ttl> .
