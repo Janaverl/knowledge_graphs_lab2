@@ -34,8 +34,8 @@
 <https://TianTangvanhoecke.github.io/KG_Lab2/vocab.ttl>
     purl:creator <https://tiantangvanhoecke.github.io/KG_Lab2/data.ttl#me> .
  
-_:b0   
-    purl:creator <https://pikajojo.github.io/Knowlege_Graph_Lab2/data.ttl#me> .
+<https://pikajojo.github.io/Knowledge_Graph_UGent_Lab2/vocab.ttl>   
+    purl:creator <https://pikajojo.github.io/Knowledge_Graph_UGent_Lab2/data.ttl#me> .
 
 <https://jellenelis.github.io/knowledge-graphs/vocabulary.ttl>  
     purl:creator <https://jellenelis.github.io/knowledge-graphs/data.ttl#JelleNelis> .
