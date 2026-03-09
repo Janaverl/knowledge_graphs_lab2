@@ -1,26 +1,47 @@
 @base <https://janaverl.github.io/knowledge_graphs_lab2/trusted_sources.ttl> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix purl: <http://purl.org/dc/terms/> .
 
+<https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl>
+    purl:creator <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl#me> .
 
-<https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl#me>
-        purl:creator <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl> ;
-        purl:creator <https://janaverl.github.io/knowledge_graphs_lab2/trusted_sources.ttl> .
+<https://hannevanoutrive.github.io/knowledge_graphs/voc.ttl>
+    purl:creator <https://hannevanoutrive.github.io/knowledge_graphs/data.ttl#vanoutrive_hanne>.
 
-<https://hannevanoutrive.github.io/knowledge_graphs/data.ttl#vanoutrive_hanne>
-        purl:creator <https://hannevanoutrive.github.io/knowledge_graphs/voc.ttl> .
+<https://federickds.github.io/knowledge_graphs/vocabulary.ttl>
+    purl:creator <https://federickds.github.io/knowledge_graphs/data.ttl#me> .
 
-<https://federickds.github.io/knowledge_graphs/data.ttl#me> 
-        purl:creator <https://federickds.github.io/knowledge_graphs/vocabulary.ttl>.
+<https://lander6.github.io/knowledge-graph-assignment/vocab.ttl>
+    purl:creator <https//lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
 
-<https//lander6.github.io/knowledge-graph-assignment/data.ttl#lander> 
-        purl:creator <https://lander6.github.io/knowledge-graph-assignment/vocab.ttl>.
+<https://seppesantens.github.io/rdf-lab2/vocab.ttl>
+    purl:creator <https://seppesantens.github.io/rdf-lab2/data.ttl#me> .
 
-<https://seppesantens.github.io/rdf-lab2/data.ttl#me> 
-        purl:creator <https://seppesantens.github.io/rdf-lab2/vocab.ttl>.
+<https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl>
+    purl:creator <https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me> .
 
-<https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me> 
-        purl:creator <https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl>.
+<https://daniel1402.github.io/knowledge-graphs-labs/vocab.ttl> 
+    purl:creator <https://daniel1402.github.io/knowledge-graphs-labs/data.ttl#me> .
 
-<https://daniel1402.github.io/knowledge-graphs-labs/data.ttl#me>
-        purl:creator <https://daniel1402.github.io/knowledge-graphs-labs/vocab.ttl> .
+<https://raw.githubusercontent.com/olivierdm/itsme/refs/heads/main/vocabulary.ttl>
+    purl:creator <https://raw.githubusercontent.com/olivierdm/itsme/refs/heads/main/profile.ttl#me> .
+
+<https://mudoki.github.io/kg-lab2-folio/terms.ttl> 
+    purl:creator <https://mudoki.github.io/kg-lab2-folio/profile.ttl#MarlinKisia> .
+ 
+<https://anyplin.github.io/Knowledge-Graphs/data.ttl>   
+    purl:creator <https://anyplin.github.io/Knowledge-Graphs/data.ttl#Anna> .
+ 
+<https://TianTangvanhoecke.github.io/KG_Lab2/vocab.ttl>
+    purl:creator <https://tiantangvanhoecke.github.io/KG_Lab2/data.ttl#me> .
+ 
+_:b0   
+    purl:creator <https://pikajojo.github.io/Knowlege_Graph_Lab2/data.ttl#me> .
+
+<https://jellenelis.github.io/knowledge-graphs/vocabulary.ttl>  
+    purl:creator <https://jellenelis.github.io/knowledge-graphs/data.ttl#JelleNelis> .
+ 
+<https://kellymarino.github.io/knowledge-graphs-2026/vocabulary.ttl#>  
+    purl:creator <https://kellymarino.github.io/knowledge-graphs-2026/data.ttl#MyName> .
+ 
+<https://jule4ka.github.io/kg_lab2/vocabulary.ttl>
+    purl:creator <https://jule4ka.github.io/kg_lab2/data.ttl#me> .
