@@ -1,16 +1,17 @@
 @base <https://janaverl.github.io/knowledge_graphs_lab2/trusted_sources.ttl> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-# identifiers
 <#person-001> owl:sameAs <https://hannevanoutrive.github.io/knowledge_graphs/data.ttl#vanoutrive_hanne> .
 <#person-002> owl:sameAs <https://federickds.github.io/knowledge_graphs/data.ttl#me>.
-<#person-003> owl:sameAs <https://lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
+<#person-003> owl:sameAs <https//lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
 <#person-004> owl:sameAs <https://seppesantens.github.io/rdf-lab2/data.ttl#me> .
 <#person-005> owl:sameAs <https://tdhulster.github.io/knowledge-graphs-ugent-2026/profile.ttl#me> .
 
-# prop for name
+
 <#name-001> owl:sameAs <https://hannevanoutrive.github.io/knowledge_graphs/voc.ttl#name> .
 <#name-002> owl:sameAs <https://federickds.github.io/knowledge_graphs/vocabulary.ttl#Name>.
 <#name-003> owl:sameAs <https://lander6.github.io/knowledge-graph-assignment/vocab.ttl> .
-<#name-004> owl:sameAs <https://seppesantens.github.io/rdf-lab2/vocab.ttl> .
-<#name-005> owl:sameAs <https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl> .
+<#name-004> owl:sameAs <https://seppesantens.github.io/rdf-lab2/vocab.ttl#name> .
+<#fname-005> owl:sameAs <https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl#firstName> .
+<#lname-005> owl:sameAs <https://tdhulster.github.io/knowledge-graphs-ugent-2026/vocab.ttl#lastName> .
