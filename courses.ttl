@@ -1,0 +1,8 @@
+@base <https://janaverl.github.io/knowledge_graphs_lab2/courses.ttl> .
+@prefix voc: <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<#knowledge-graphs-2025> 
+    a                               voc:Course ;
+    voc:name                        "Knowledge Graphs 2025" ;
+    rdfs:seeAlso                    <https://studiekiezer.ugent.be/studiefiche/nl/E018160/2025> .
