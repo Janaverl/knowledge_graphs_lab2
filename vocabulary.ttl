@@ -65,7 +65,7 @@
 
 <#Coffee> 
     a               rdfs:Class ;
-    rdfs:subClassOf <#Drink> ;
+    a               <#Drink> ;
     rdfs:label      "coffee"@en ;
     rdfs:comment    "a hot beverage brewed from roasted seeds of the coffee plant, known for its dark color, bitter taste, and stimulating caffeine content"@en .
 
@@ -83,7 +83,7 @@
 
 <#Running> 
     a               rdfs:Class ;
-    rdfs:subClassOf <#Activity> ;
+    a               <#Activity> ;
     rdfs:label      "running"@en ;
     rdfs:comment    "a physical activity in which a person moves forward on foot at a speed faster than walking, with moments when both feet are off the ground"@en .
 
