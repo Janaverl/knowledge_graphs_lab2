@@ -11,7 +11,7 @@
     purl:creator <https://federickds.github.io/knowledge_graphs/data.ttl#me> .
 
 <https://lander6.github.io/knowledge-graph-assignment/vocab.ttl>
-    purl:creator <https//lander6.github.io/knowledge-graph-assignment/data.ttl#lander> .
+    purl:creator <https://lander6.github.io/knowledge-graph-assignment/data.ttl#Lander> .
 
 <https://seppesantens.github.io/rdf-lab2/vocab.ttl>
     purl:creator <https://seppesantens.github.io/rdf-lab2/data.ttl#me> .
