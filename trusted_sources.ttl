@@ -45,3 +45,6 @@
  
 <https://jule4ka.github.io/kg_lab2/vocabulary.ttl>
     purl:creator <https://jule4ka.github.io/kg_lab2/data.ttl#me> .
+
+<https://papichickens.github.io/vocab.ttl>
+    purl:creator <https://papichickens.github.io/data.ttl#me> .
