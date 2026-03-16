@@ -5,6 +5,7 @@
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:    <http://www.w3.org/2002/07/owl#> .
 @prefix schema: <https://schema.org/> .
+@prefix wd:     <https://www.wikidata.org/wiki/> .
 
 <#me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
@@ -34,24 +35,32 @@
     voc:name                        "Knowledge Graphs 2025" ;
     rdfs:seeAlso                    <https://studiekiezer.ugent.be/studiefiche/nl/E018160/2025> .
 
+wd:Q1070054 a voc:Location .
+wd:Q800814  a voc:Location .
+wd:Q498639  a voc:Location .
+wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/001.jpg>
     a                               voc:Img ;
     voc:name                        "locker n° 53" ;
-    voc:photographer                <#me> .
+    voc:photographer                <#me> ;
+    voc:shooting-location           wd:Q1070054 .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/002.jpg>
     a                               voc:Img ;
     voc:name                        "bicycle parking block n° 41" ;
-    voc:photographer                <#me> .
+    voc:photographer                <#me> ;
+    voc:shooting-location           wd:Q800814 .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/003.jpg>
     a                               voc:Img ;
     voc:name                        "bib n° 13" ;
     voc:photographer                <#me> ;
-    voc:portrays                    <#me> .
+    voc:portrays                    <#me> ;
+    voc:shooting-location           wd:Q498639 .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/004.jpg>
     a                               voc:Img ;
     voc:name                        "locker n° 14" ;
-    voc:photographer                <#me> .
+    voc:photographer                <#me> ;
+    voc:shooting-location           wd:Q2358158 .
