@@ -43,6 +43,13 @@
     rdfs:domain     <#Person> ;
     rdfs:range      <#Person> .
 
+<#description> 
+    a               rdf:Property ;
+    rdfs:label      "description"@en ;
+    rdfs:comment    "An explanation that tells what something is, so someone can imagine or understand it."@en ;
+    rdfs:domain     rdfs:Resource ;
+    rdfs:range      rdfs:Literal .
+
 #   __                _                _      _       _        
 #  / _|              | |   ___        | |    (_)     | |       
 # | |_ ___   ___   __| |  ( _ )     __| |_ __ _ _ __ | | _____ 

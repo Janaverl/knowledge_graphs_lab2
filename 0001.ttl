@@ -42,25 +42,29 @@ wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/001.jpg>
     a                               voc:Img ;
-    voc:name                        "locker n° 53" ;
+    voc:name                        "locker n° 53"@en ;
     voc:photographer                <#me> ;
-    voc:shooting-location           wd:Q1070054 .
+    voc:shooting-location           wd:Q1070054 ;
+    voc:description                 "A locker in a changing room. It has a digital keypad and the number 53 above it."@en .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/002.jpg>
     a                               voc:Img ;
-    voc:name                        "bicycle parking block n° 41" ;
+    voc:name                        "bicycle parking block n° 41"@en ;
     voc:photographer                <#me> ;
-    voc:shooting-location           wd:Q800814 .
+    voc:shooting-location           wd:Q800814 ;
+    voc:description                 "An indoor bike parking area with two‑tier racks full of bicycles, and a cabinet marked 41 in the foreground with a bag placed in front of it."@en .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/003.jpg>
     a                               voc:Img ;
-    voc:name                        "bib n° 13" ;
+    voc:name                        "race bib n° 13"@en ;
     voc:photographer                <#me> ;
     voc:portrays                    <#me> ;
-    voc:shooting-location           wd:Q498639 .
+    voc:shooting-location           wd:Q498639 ;
+    voc:description                 "Jana wears a race bib with the unlucky number 13. The race is a part of 'Loopcriterium van de Kust'."@en .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/004.jpg>
     a                               voc:Img ;
-    voc:name                        "locker n° 14" ;
+    voc:name                        "locker n° 14"@en ;
     voc:photographer                <#me> ;
-    voc:shooting-location           wd:Q2358158 .
+    voc:shooting-location           wd:Q2358158 ;
+    voc:description                 "A locker in the cloakroom of the museum 'Huis van Alijn' in Ghent. It has a digital keypad and the number 14 above it."@en .
