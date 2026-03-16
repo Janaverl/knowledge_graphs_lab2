@@ -13,6 +13,7 @@
 
 <#Person> 
     a               rdf:Class ;
+    rdfs:subClassOf foaf:Person;
     rdfs:label      "person"@en ;
     rdfs:comment    "a human being"@en .
 
@@ -24,6 +25,7 @@
 
 <#name> 
     a               rdf:Property ;
+    rdfs:subPropertyOf foaf:name ;
     rdfs:label      "name"@en ;
     rdfs:comment    "a word or set of words by which a person, a thing or a place is known or addressed"@en ;
     rdfs:domain     rdfs:Resource ;
@@ -164,6 +166,7 @@
 
 <#portrays>
     a               rdf:Property ;
+    rdfs:subPropertyOf foaf:depicts ;
     rdfs:label      "portrays"@en ;
     rdfs:comment    "Someone that is visible on an image."@en ;
     rdfs:domain     <#Img> ;
