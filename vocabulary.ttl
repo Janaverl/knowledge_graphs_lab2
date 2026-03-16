@@ -139,4 +139,11 @@
     a               rdf:Class ;
     rdfs:subClassOf foaf:Image ;
     rdfs:label      "photograph"@en ;
-    rdfs:comment    "A two-dimensional visual representation of a moment, captured using a camera."@en .
+    rdfs:comment    "A two-dimensional visual representation of a moment captured using a camera."@en .
+
+<#photographer>
+    a               rdf:Property ;
+    rdfs:label      "photographer"@en ;
+    rdfs:comment    "The person who created an image by capturing a moment with a camera."@en ;
+    rdfs:domain     <#Img> ;
+    rdfs:range      <#Person> .
