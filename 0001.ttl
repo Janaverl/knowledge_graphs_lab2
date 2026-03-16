@@ -68,4 +68,4 @@ wd:Q2358158 a voc:Location .
     voc:name                        "locker n° 14"@en ;
     voc:photographer                <#me> ;
     voc:shooting-location           wd:Q2358158 ;
-    voc:description                 "A locker in the cloakroom of the museum 'Huis van Alijn' in Ghent. It has a digital keypad and the number 14 above it."@en .
+    voc:description                 "A locker in the cloakroom of the museum 'Huis van Alijn' in Ghent. It has a keypad and the number 14 above it."@en .
