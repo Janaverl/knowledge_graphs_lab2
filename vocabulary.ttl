@@ -147,3 +147,11 @@
     rdfs:comment    "The person who created an image by capturing a moment with a camera."@en ;
     rdfs:domain     <#Img> ;
     rdfs:range      <#Person> .
+
+<#portrays>
+    a               rdf:Property ;
+    rdfs:label      "photographer"@en ;
+    rdfs:comment    "Someone that is visible on an image."@en ;
+    rdfs:domain     <#Img> ;
+    rdfs:range      <#Person> .
+    

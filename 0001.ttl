@@ -48,7 +48,8 @@
 <https://janaverl.github.io/knowledge_graphs_lab2/img/003.jpg>
     a                               voc:Img ;
     voc:name                        "bib n° 13" ;
-    voc:photographer                <#me> .
+    voc:photographer                <#me> ;
+    voc:portrays                    <#me> .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/004.jpg>
     a                               voc:Img ;
