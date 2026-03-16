@@ -33,3 +33,15 @@
     a                               voc:Course ;
     voc:name                        "Knowledge Graphs 2025" ;
     rdfs:seeAlso                    <https://studiekiezer.ugent.be/studiefiche/nl/E018160/2025> .
+
+<https://janaverl.github.io/knowledge_graphs_lab2/img/001.jpg>
+    a                               voc:Img .
+
+<https://janaverl.github.io/knowledge_graphs_lab2/img/002.jpg>
+    a                               voc:Img .
+
+<https://janaverl.github.io/knowledge_graphs_lab2/img/003.jpg>
+    a                               voc:Img .
+
+<https://janaverl.github.io/knowledge_graphs_lab2/img/004.jpg>
+    a                               voc:Img .

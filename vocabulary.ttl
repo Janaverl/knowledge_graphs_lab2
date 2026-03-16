@@ -124,3 +124,17 @@
     rdfs:comment    "Formally registered as a participant in a course." ;
     rdfs:domain     <#Student> ;
     rdfs:range      <#Course> .
+
+#  _                 
+# (_)                
+#  _ _ __ ___   __ _ 
+# | | '_ ` _ \ / _` |
+# | | | | | | | (_| |
+# |_|_| |_| |_|\__, |
+#               __/ |
+#              |___/ 
+
+<#Img> 
+    a               rdf:Class ;
+    rdfs:label      "photograph"@en ;
+    rdfs:comment    "A two-dimensional visual representation of a moment, captured using a camera."@en .
