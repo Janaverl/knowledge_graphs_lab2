@@ -43,7 +43,6 @@ wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/001.jpg>
     a                               voc:Img ;
-    a                               foaf:Image ;
     voc:name                        "locker n° 53"@en ;
     voc:photographer                <#me> ;
     voc:shooting-location           wd:Q1070054 ;
@@ -51,7 +50,6 @@ wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/002.jpg>
     a                               voc:Img ;
-    a                               foaf:Image ;
     voc:name                        "bicycle parking block n° 41"@en ;
     voc:photographer                <#me> ;
     voc:shooting-location           wd:Q800814 ;
@@ -59,7 +57,6 @@ wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/003.jpg>
     a                               voc:Img ;
-    a                               foaf:Image ;
     voc:name                        "race bib n° 13"@en ;
     voc:photographer                <#me> ;
     voc:portrays                    <#me> ;
@@ -68,7 +65,6 @@ wd:Q2358158 a voc:Location .
 
 <https://janaverl.github.io/knowledge_graphs_lab2/img/004.jpg>
     a                               voc:Img ;
-    a                               foaf:Image ;
     voc:name                        "locker n° 14"@en ;
     voc:photographer                <#me> ;
     voc:shooting-location           wd:Q2358158 ;
