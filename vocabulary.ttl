@@ -1,8 +1,9 @@
 @base   <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl> .
+
 @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
-@prefix wd:     <https://www.wikidata.org/wiki/> .
+@prefix schema: <https://schema.org/> .
 
 #   __ _  ___ _ __   ___ _ __ __ _| |
 #  / _` |/ _ \ '_ \ / _ \ '__/ _` | |
@@ -19,7 +20,7 @@
 
 <#Location>
     a                   rdf:Class ;
-    rdfs:subClassOf     wd:Q115095765 ;
+    rdfs:subClassOf     schema:Place ;
     rdfs:label          "location"@en ;
     rdfs:comment        "identification for a place, a building or region."@en .
 
@@ -159,6 +160,14 @@
     rdfs:label          "photograph"@en ;
     rdfs:comment        "A two-dimensional visual representation of a moment captured using a camera."@en .
 
+<#imageURL>
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  schema:url ;
+    rdfs:label          "content url"@en ;
+    rdfs:comment        "The online location of an image."@en ;
+    rdfs:domain         <#Img> ;
+    rdfs:range          schema:URL .
+
 <#photographer>
     a                   rdf:Property ;
     rdfs:subPropertyOf  foaf:maker ;
@@ -177,6 +186,7 @@
 
 <#shooting-location>
     a                   rdf:Property ;
+    rdfs:subPropertyOf  schema:contentLocation ;
     rdfs:label          "shooting location"@en ;
     rdfs:comment        "The place where the image was taken."@en ;
     rdfs:domain         <#Img> ;
