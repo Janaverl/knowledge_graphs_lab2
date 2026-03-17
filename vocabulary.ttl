@@ -12,45 +12,47 @@
 #  |___/                             
 
 <#Person> 
-    a               rdf:Class ;
-    rdfs:subClassOf foaf:Person;
-    rdfs:label      "person"@en ;
-    rdfs:comment    "a human being"@en .
+    a                   rdf:Class ;
+    rdfs:subClassOf     foaf:Person ;
+    rdfs:label          "person"@en ;
+    rdfs:comment        "a human being"@en .
 
 <#Location>
-    a               rdf:Class ;
-    rdfs:label      "location"@en ;
-    rdfs:comment    "identification for a place, a building or region."@en ;
-    rdfs:subClassOf wd:Q115095765 .
+    a                   rdf:Class ;
+    rdfs:subClassOf     wd:Q115095765 ;
+    rdfs:label          "location"@en ;
+    rdfs:comment        "identification for a place, a building or region."@en .
 
 <#name> 
-    a               rdf:Property ;
-    rdfs:subPropertyOf foaf:name ;
-    rdfs:label      "name"@en ;
-    rdfs:comment    "a word or set of words by which a person, a thing or a place is known or addressed"@en ;
-    rdfs:domain     rdfs:Resource ;
-    rdfs:range      rdfs:Literal .
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  foaf:name ;
+    rdfs:label          "name"@en ;
+    rdfs:comment        "a word or set of words by which a person, a thing or a place is known or addressed"@en ;
+    rdfs:domain         rdfs:Resource ;
+    rdfs:range          rdfs:Literal .
 
 <#e-mail> 
-    a               rdf:Property ;
-    rdfs:label      "e-mail"@en ;
-    rdfs:comment    "a unique identifier that specifies the address of a digital mailbox where electronic messages can be sent and received"@en ;
-    rdfs:domain     rdfs:Resource ;
-    rdfs:range      rdfs:Literal .
+    a                   rdf:Property ;
+    rdfs:label          "e-mail"@en ;
+    rdfs:comment        "a unique identifier that specifies the address of a digital mailbox where electronic messages can be sent and received"@en ;
+    rdfs:domain         rdfs:Resource ;
+    rdfs:range          rdfs:Literal .
 
 <#knows> 
-    a               rdf:Property ;
-    rdfs:label      "knows"@en ;
-    rdfs:comment    "having some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
-    rdfs:domain     <#Person> ;
-    rdfs:range      <#Person> .
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  foaf:knows ;
+    rdfs:label          "knows"@en ;
+    rdfs:comment        "having some degree of personal awareness of that person based on prior interaction, experience, or information"@en ;
+    rdfs:domain         <#Person> ;
+    rdfs:range          <#Person> .
 
 <#description> 
-    a               rdf:Property ;
-    rdfs:label      "description"@en ;
-    rdfs:comment    "An explanation that tells what something is, so someone can imagine or understand it."@en ;
-    rdfs:domain     rdfs:Resource ;
-    rdfs:range      rdfs:Literal .
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  rdfs:comment ;
+    rdfs:label          "description"@en ;
+    rdfs:comment        "An explanation that tells what something is, so someone can imagine or understand it."@en ;
+    rdfs:domain         rdfs:Resource ;
+    rdfs:range          rdfs:Literal .
 
 #   __                _                _      _       _        
 #  / _|              | |   ___        | |    (_)     | |       
@@ -152,29 +154,30 @@
 #                                                      
 
 <#Img> 
-    a               rdf:Class ;
-    rdfs:subClassOf foaf:Image ;
-    rdfs:label      "photograph"@en ;
-    rdfs:comment    "A two-dimensional visual representation of a moment captured using a camera."@en .
+    a                   rdf:Class ;
+    rdfs:subClassOf     foaf:Image ;
+    rdfs:label          "photograph"@en ;
+    rdfs:comment        "A two-dimensional visual representation of a moment captured using a camera."@en .
 
 <#photographer>
-    a               rdf:Property ;
-    rdfs:label      "photographer"@en ;
-    rdfs:comment    "The person who created an image by capturing a moment with a camera."@en ;
-    rdfs:domain     <#Img> ;
-    rdfs:range      <#Person> .
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  foaf:maker ;
+    rdfs:label          "photographer"@en ;
+    rdfs:comment        "The person who created an image by capturing a moment with a camera."@en ;
+    rdfs:domain         <#Img> ;
+    rdfs:range          <#Person> .
 
 <#portrays>
-    a               rdf:Property ;
-    rdfs:subPropertyOf foaf:depicts ;
-    rdfs:label      "portrays"@en ;
-    rdfs:comment    "Someone that is visible on an image."@en ;
-    rdfs:domain     <#Img> ;
-    rdfs:range      <#Person> .
+    a                   rdf:Property ;
+    rdfs:subPropertyOf  foaf:depicts ;
+    rdfs:label          "portrays"@en ;
+    rdfs:comment        "Someone that is visible on an image."@en ;
+    rdfs:domain         <#Img> ;
+    rdfs:range          <#Person> .
 
 <#shooting-location>
-    a               rdf:Property ;
-    rdfs:label      "shooting location"@en ;
-    rdfs:comment    "The place where the image was taken."@en ;
-    rdfs:domain     <#Img> ;
-    rdfs:range      <#Location> .
+    a                   rdf:Property ;
+    rdfs:label          "shooting location"@en ;
+    rdfs:comment        "The place where the image was taken."@en ;
+    rdfs:domain         <#Img> ;
+    rdfs:range          <#Location> .
