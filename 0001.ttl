@@ -42,7 +42,7 @@
     voc:imageURL                    <https://janaverl.github.io/knowledge_graphs_lab2/img/001.jpg>;
     voc:name                        "locker n° 53"@en ;
     voc:photographer                <#me> ;
-    voc:shooting-location           <#jims-gym-locker-room> ;
+    voc:shooting-location           <#gym-locker-room> ;
     voc:description                 "A locker in a changing room. It has a digital keypad and the number 53 above it."@en .
 
 <#img-002>
@@ -77,8 +77,8 @@
     voc:portrays                    <#OliverHardy> ;
     voc:portrays                    <#StanLaurel> ;
     voc:description                 "Image of Laurel & Hardy in Flying Deuces."@en ;
-    owl:seeAlso                     <https://commons.wikimedia.org/wiki/File:Laurel_%26_Hardy_in_Flying_Deuces_1_edited.png> ;
-    owl:seeAlso                     wd:Q33497.
+    rdfs:seeAlso                     <https://commons.wikimedia.org/wiki/File:Laurel_%26_Hardy_in_Flying_Deuces_1_edited.png> ;
+    rdfs:seeAlso                     wd:Q33497 .
 
 
 <#gym-locker-room>
