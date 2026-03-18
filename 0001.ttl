@@ -8,12 +8,19 @@
 @prefix wd:     <https://www.wikidata.org/wiki/> .
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 
+
+# .__        ___.     ________  
+# |  | _____ \_ |__   \_____  \ 
+# |  | \__  \ | __ \   /  ____/ 
+# |  |__/ __ \| \_\ \ /       \ 
+# |____(____  /___  / \_______ \
+#          \/    \/          \/
+
+
 <#me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
     a                               voc:Person , voc:Student ;
     voc:student-enrolment-type      voc:Micro-credential-student ;
-    voc:enrolledIn                  <#knowledge-graphs-2025> ;
-    schema:course                   <https://www.ugain.ugent.be/MCKG2026.htm> ;
     voc:e-mail                      "jana.verlinde@ugent.be"^^xsd:string ;
     voc:favorite-drink              voc:Coffee ;
     voc:hobby                       voc:Running ;
@@ -31,11 +38,29 @@
 <#jana>
     owl:sameAs                     <#me> .
 
+# .__        ___.     ________  
+# |  | _____ \_ |__   \_____  \ 
+# |  | \__  \ | __ \    _(__  < 
+# |  |__/ __ \| \_\ \  /       \
+# |____(____  /___  / /______  /
+#           \/    \/         \/ 
+
+<#me>
+    voc:enrolledIn                  <#knowledge-graphs-2025> ;
+    schema:course                   <https://www.ugain.ugent.be/MCKG2026.htm> .
+
 <#knowledge-graphs-2025> 
     a                               voc:Course ;
     voc:name                        "Knowledge Graphs 2025" ;
     rdfs:seeAlso                    <https://studiekiezer.ugent.be/studiefiche/nl/E018160/2025> .
 
+
+# .__        ___.        _____       
+# |  | _____ \_ |__     /  |  |    
+# |  | \__  \ | __ \   /   |  |_   
+# |  |__/ __ \| \_\ \ /    ^   /  
+# |____(____  /___  / \____   |  
+#           \/    \/       |__|      
 
 <#img-001>
     a                               voc:Img ;
