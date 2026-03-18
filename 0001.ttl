@@ -76,7 +76,9 @@
     voc:name                        "Laurel & Hardy in Flying Deuces"@en ;
     voc:portrays                    <#OliverHardy> ;
     voc:portrays                    <#StanLaurel> ;
-    voc:description                 "Image of Laurel & Hardy in Flying Deuces."@en .
+    voc:description                 "Image of Laurel & Hardy in Flying Deuces."@en ;
+    owl:seeAlso                     <https://commons.wikimedia.org/wiki/File:Laurel_%26_Hardy_in_Flying_Deuces_1_edited.png> ;
+    owl:seeAlso                     wd:Q33497.
 
 
 <#gym-locker-room>
@@ -92,9 +94,9 @@ wd:Q2358158     a   voc:Location .
 <#OliverHardy> 
     a               voc:Person ;
     voc:name        "Oliver Hardy" ;
-    owl:sameAs      <https://www.wikidata.org/wiki/Q72911> .
+    owl:sameAs      wd:Q72911 .
 
 <#StanLaurel>
     a               voc:Person ;
     voc:name        "Stan Laurel" ;
-    owl:sameAs      <https://www.wikidata.org/wiki/Q72869> .
+    owl:sameAs      wd:Q72869 .
