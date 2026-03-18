@@ -1,5 +1,7 @@
 @base <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl> .
 
+@prefix : <https://janaverl.github.io/knowledge_graphs_lab2/0001.ttl> .
+
 @prefix voc:    <https://janaverl.github.io/knowledge_graphs_lab2/vocabulary.ttl#> .
 @prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
@@ -70,11 +72,31 @@
     voc:shooting-location           wd:Q2358158 ;
     voc:description                 "A locker in the cloakroom of the museum 'Huis van Alijn' in Ghent. It has a keypad and the number 14 above it."@en .
 
+<#img-005>
+    a                               voc:Img ;
+    voc:imageURL                    <https://commons.wikimedia.org/wiki/File:Laurel_%26_Hardy_in_Flying_Deuces_1_edited.png#/media/File:Laurel_&_Hardy_in_Flying_Deuces_1_edited.png> ;
+    voc:name                        "Laurel & Hardy in Flying Deuces"@en ;
+    voc:portrays                    <#OliverHardy> ;
+    voc:portrays                    <#StanLaurel> ;
+    voc:description                 "Image of Laurel & Hardy in Flying Deuces."@en .
+
+
 <#gym-locker-room>
-    voc:name        "A gym locker room with an undisclosed location."@en ;
+    voc:name        "A gym locker room somewhere in Ghent."@en ;
     a               voc:Location ;
     a               wd:Q1070054 .
 
 wd:Q800814      a   voc:Location .
 wd:Q498639      a   voc:Location .
 wd:Q2358158     a   voc:Location .
+
+
+<#OliverHardy> 
+    a               voc:Person ;
+    voc:name        "Oliver Hardy" ;
+    owl:sameAs      <https://www.wikidata.org/wiki/Q72911> .
+
+<#StanLaurel>
+    a               voc:Person ;
+    voc:name        "Stan Laurel" ;
+    owl:sameAs      <https://www.wikidata.org/wiki/Q72869> .
