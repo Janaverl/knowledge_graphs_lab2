@@ -9,6 +9,14 @@
 @prefix foaf:   <http://xmlns.com/foaf/0.1/> .
 
 
+# .__        ___.     ________  
+# |  | _____ \_ |__   \_____  \ 
+# |  | \__  \ | __ \   /  ____/ 
+# |  |__/ __ \| \_\ \ /       \ 
+# |____(____  /___  / \_______ \
+#          \/    \/          \/
+
+
 <#me>
     voc:name                        "Jana Verlinde"^^xsd:string ;
     a                               voc:Person , voc:Student ;
